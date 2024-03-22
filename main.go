@@ -1,5 +1,5 @@
 // Netcat is a read-only TCP client. Adapted from
-// github.com/adonovan/gopl.io/tree/master/ch8/netcat1.
+// https://github.com/adonovan/gopl.io/tree/master/ch8/netcat1.
 package main
 
 import (
@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	conn, err := net.Dial("tcp", "localhost:1155")
+	conn, err := net.Dial("tcp", "localhost:1155") // run the clock kata
 	if err != nil {
 		log.Fatal(err)
 	}
