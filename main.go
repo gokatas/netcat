@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	conn, err := net.Dial("tcp", "localhost:1155") // run the clock kata
+	conn, err := net.Dial("tcp", "localhost:1155") // the clock kata listens on this address
 	if err != nil {
 		log.Fatal(err)
 	}
